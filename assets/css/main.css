@@ -73,7 +73,7 @@ input, select, textarea {
 }
 
 .content-text {
-	font-weight: bold;
+	color: black;
 }
 
 /* Basic */
@@ -323,6 +323,12 @@ input, select, textarea {
 
 	.love {
 		color: red;
+	}
+
+	.content-header {
+		color: black;
+		font-weight: lighter;
+		font-size: 1.5em;
 	}
 
 	.content-repo {
@@ -2751,11 +2757,12 @@ input, select, textarea {
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
+				opacity: 0.35;
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 30%;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
