@@ -327,8 +327,7 @@ input, select, textarea {
 
 	.content-header {
 		color: black;
-		font-weight: lighter;
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 
 	.content-repo {
@@ -2757,7 +2756,7 @@ input, select, textarea {
 				-webkit-transform: scale(1.1);
 				-ms-transform: scale(1.1);
 				transform: scale(1.1);
-				opacity: 0.35;
+				opacity: 25%;
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
@@ -3365,3 +3364,7 @@ input, select, textarea {
 			}
 
 		}
+
+
+
+	
