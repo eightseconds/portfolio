@@ -1,137 +1,180 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Paul Cho</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"  />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <head>
+    <title>Paul Cho</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <span id="home" class="symbol"
+              ><img src="images/logo.svg" alt="" /></span
+            ><span class="title">Paul Cho</span>
+          </a>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span id="home" class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Paul Cho</span>
-								</a>
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="resume.pdf">Resume</a></li>
+        </ul>
+      </nav>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <header>
+            <h1>Hi! I'm Paul Cho, a software engineer based in SF.</h1>
 
-						</div>
-					</header>
+            <p>
+              Here's my <a target="_blank" href="resume.pdf">resume</a>. Check
+              out my previous projects below!
+            </p>
+          </header>
+          <h2 id="projects" class="section-header">Recent Projects</h2>
+          <section class="tiles">
+            <article class="style1">
+              <span class="image">
+                <img src="images/asauna.png" alt="" />
+              </span>
+              <a target="_blank" href="https://asauna.herokuapp.com/">
+                <h2 class="content-header">Asauna</h2>
+                <div class="content">
+                  <p class="content-text">
+                    Productivity and task management web application.
+                  </p>
+                </div>
+              </a>
+              <div class="content-repo">
+                <a href="https://github.com/paulcho8/asauna" target="_blank"
+                  >Repo</a
+                >
+              </div>
+            </article>
+            <article class="style2">
+              <span class="image">
+                <img src="images/museruse.png" alt="" />
+              </span>
+              <a target="_blank" href="https://museruse.live/">
+                <h2 class="content-header">Museruse</h2>
+                <div class="content">
+                  <p class="content-text">
+                    An entertaining rhythm-based game, inspired by StepMania.
+                  </p>
+                </div>
+              </a>
+              <div class="content-repo">
+                <a href="https://github.com/paulcho8/museruse" target="_blank"
+                  >Repo</a
+                >
+              </div>
+            </article>
+            <article class="style3">
+              <span class="image">
+                <img src="images/liftur.png" alt="" />
+              </span>
+              <a target="_blank" href="https://liftur.herokuapp.com/">
+                <h2 class="content-header">Liftur</h2>
+                <div class="content">
+                  <p class="content-text">
+                    Mobile web application that creates a fitness plan based on
+                    user goals and experiences.
+                  </p>
+                </div>
+              </a>
+              <div class="content-repo">
+                <a href="https://github.com/paulcho8/liftur" target="_blank"
+                  >Repo</a
+                >
+              </div>
+            </article>
+          </section>
+          <h2 id="about" class="section-header">About Me</h2>
+          <section>
+            <div class="about-content">
+              I am a bay area based fullstack software engineer who loves
+              tackling complex software and architecture challenges and problem
+              solving. I have SRE/DevOps experience developing complex features,
+              automating deployments, and supporting and maintaining cloud
+              infrastructure. Some of my technical skills include
+              <span class="about-skills"
+                >Java 8 and Spring Boot, JavaScript, Ruby / Rails, React, Redux,
+                Node.js, and AWS.</span
+              >
+            </div>
+            <div class="about-content">
+              Please take a look at my
+              <a target="_blank" href="resume.pdf">resume</a> for more technical
+              details!
+            </div>
+          </section>
+        </div>
+      </div>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="#home">Home</a></li>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="resume.pdf">Resume</a></li>
-						</ul>
-					</nav>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>Follow</h2>
+            <ul class="icons">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/eightseconds/"
+                  class="icon brands style2 fa-linkedin"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/paulcho8"
+                  class="icon brands style2 fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </section>
+          <ul class="copyright">
+            <li class="copyright-text">
+              You are filled with DETERMINATION <span class="love">♥</span>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>Hi! I'm Paul Cho, a software engineer based in SF.</h1>
-
-								<p>Here's my <a target="_blank" href="resume.pdf">resume</a>. Check out my previous projects below!</p>
-							</header>
-							<h2 id="projects" class=section-header>Recent Projects</h2>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/asauna.png" alt=""/>
-									</span>
-									<a target="_blank" href="https://asauna.herokuapp.com/">
-										<h2 class=content-header>Asauna</h2>
-										<div class="content">
-											<p class="content-text">Productivity and task management web application.</p>
-										</div>
-									</a>
-									<div class="content-repo">
-										<a href="https://github.com/eightseconds/asauna" target="_blank">Repo</a>
-									</div>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/museruse.png" alt="" />
-									</span>
-									<a target="_blank" href="https://museruse.live/">
-										<h2 class="content-header">Museruse</h2>
-										<div class="content">
-											<p class="content-text">An entertaining rhythm-based game, inspired by StepMania.</p>
-										</div>
-									</a>
-									<div class="content-repo">
-										<a href="https://github.com/eightseconds/museruse" target="_blank">Repo</a>
-									</div>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/liftur.png" alt="" />
-									</span>
-									<a target="_blank" href="https://liftur.herokuapp.com/">
-										<h2 class="content-header">Liftur</h2>
-										<div class="content">
-											<p class="content-text">Mobile web application that creates a fitness plan based on user goals and experiences.</p>
-										</div>
-									</a>
-									<div class="content-repo">
-										<a href="https://github.com/eightseconds/liftur" target="_blank">Repo</a>
-									</div>
-								</article>
-							</section>
-							<h2 id="about" class=section-header>About Me</h2>
-							<section>
-								<div class="about-content">
-									I am a San Francisco-based fullstack software engineer who loves tackling complex software challenges and problem solving. I have experience in agile software development, and I code with a DevOps mindset, focusing on continuous delivery. 
-									Some of my technical skills include <span class="about-skills">Java 8 and Spring Boot, JavaScript, Ruby / Rails, React, Redux, and Node.js.</span>
-								</div>
-								<div class="about-content">
-									Please take a look at my <a target="_blank" href="resume.pdf">resume</a> for more technical details!
-								</div>
-							</section>
-						</div>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a target="_blank" href="https://www.linkedin.com/in/paul-cho-26809a129/" class="icon brands style2 fa-linkedin"><span class="label">GitHub</span></a></li>
-									<li><a target="_blank" href="https://github.com/eightseconds" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-							<ul class="copyright">
-								<li class="copyright-text"> Made with <span class="love">♥</span> by Paul Cho</li>
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
