@@ -3436,6 +3436,7 @@ li.copyright-text {
   width: 100%;
   max-width: 68em;
   margin: 0 auto;
+  margin-top: 1em;
   padding: 0 2.5em;
 }
 
